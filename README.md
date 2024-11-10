@@ -14,8 +14,6 @@ This repository contains Python scripts created for backend projects in the SU T
 | **filter_keyword_orders.py** | Filters emails of users who ordered items containing a specific keyword (e.g., "case") and lists the matching items in a CSV file. |
 
 
-(Update this table as you add descriptions for each script.)
-
 ## Usage
 To use any of these scripts, clone the repository and run the desired script using Python:
 
