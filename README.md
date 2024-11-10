@@ -1,6 +1,6 @@
 # SU Tech Backend Scripts
 
-This repository contains Python scripts created for backend projects in the SU Tech and Innovation team. Each script serves a specific function to streamline tasks and improve backend operations.
+This repository contains Python scripts created for backend projects in the AUC SU Technology and Innovation team (2024-2025). Each script serves a specific function to streamline tasks and improve backend operations.
 
 ## Table of Contents
 
