@@ -1,6 +1,6 @@
 # SU Tech Backend Scripts
 
-This repository contains Python scripts created for backend projects in the SU Tech and Innovation team. Each script serves a specific function to streamline tasks and improve backend operations.
+This repository contains Python scripts created for backend projects in the AUC SU Technology and Innovation team (2024-2025). Each script serves a specific function to streamline tasks and improve backend operations.
 
 ## Table of Contents
 
@@ -14,6 +14,9 @@ This repository contains Python scripts created for backend projects in the SU T
 
 - **filter_keyword_orders.py**  
   Filters emails of users who ordered items containing a specific keyword (e.g., "case") and lists the matching items in a CSV file.
+- **clean_orders_csv.py**  
+  Removes duplicate customer entries from an order CSV file based on unique identifiers (email, name, phone number), saves the cleaned data into a new CSV file, and ensures that the database is updated by removing corresponding duplicate records.
+
 
 ### Usage
 
