@@ -16,9 +16,10 @@ def filter_emails_with_items(input_file):
         for row in reader:
             ordered_items = []
             
-            # Check all item columns for "case"
+            # Check all item columns for "KEYWORD"
+            # Please replace KEYWORD with your actual item keyword
             for key, value in row.items():
-                if key.startswith("item_") and "case" in value.lower():
+                if key.startswith("item_") and "KEYWORD" in value.lower():
                     ordered_items.append(value)
             
             if ordered_items:
